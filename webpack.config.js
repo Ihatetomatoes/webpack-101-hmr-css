@@ -31,6 +31,10 @@ module.exports = {
                 test: /\.js$/,
                 exclude: /node_modules/,
                 use: 'babel-loader'
+            },
+            {
+                test: /\.pug$/,
+                use: 'pug-loader'
             }
         ]
     },
@@ -44,7 +48,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             title: 'Project Demo',
             hash: true,
-            template: './src/index.html'
+            template: './src/index.pug'
         }),
         new ExtractTextPlugin({
             filename: 'app.css',
