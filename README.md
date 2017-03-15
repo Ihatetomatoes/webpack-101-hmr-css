@@ -25,4 +25,9 @@ If you are on pc you will need to type the word `SET` before the NODE_ENV in pac
 
 `"prod": "npm run clean && SET NODE_ENV=production webpack -p"`
 
+### 3. Use cross-env for MAC/PC
+If you want to set NODE_ENV for both Mac and PC you can use `cross-env` like this:
+
+`"prod": "npm run clean && cross-env NODE_ENV=production webpack -p"`
+
 Don't forget to [subscribe to my channel](https://www.youtube.com/channel/UC7O6CntQoAI-wYyJxYiqNUg?sub_confirmation=1) for more front-end videos.
