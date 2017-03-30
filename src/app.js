@@ -1,3 +1,3 @@
-import css from './app.scss';
+import './app.scss'
 
-console.log('testing hot module replacement');
+console.log('testing hot module replacement')
