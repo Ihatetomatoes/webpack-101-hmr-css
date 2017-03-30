@@ -13,6 +13,16 @@ Learn how to setup Webpack 2 and hot reload your CSS or SASS.
 3. Run `npm run dev` for development mode
 4. New browser window should open automatically.
 
+## eslit commands
+
+    // list all files in scr and subfolders
+    eslint src/**/*.js webpack.config.js
+
+    npm run lint -s
+
+    // fix listed issues automatically
+    npm run lint -s -- --fix
+
 ## Notes
 
 ### 1. Issue with Pug HTML Loader
